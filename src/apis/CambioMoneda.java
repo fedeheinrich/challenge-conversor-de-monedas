@@ -1,16 +1,15 @@
 package apis;
 import models.Moneda;
-import gson.Gson;
+import com.google.gson.Gson;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.net.http.httpResponse;
 
 public class CambioMoneda {
 
-    private String API_KEY = "8a29b72a22ff00c5a5089f6a";
-    private String URL_BASE = "https://v6.exchangerate-api.com/v6";
+    private final static String API_KEY = "8a29b72a22ff00c5a5089f6a";
+    private final static String URL_BASE = "https://v6.exchangerate-api.com/v6";
 
     public Moneda obtenerCambio(String monedaOrigen, String monedaDestino){
         try{

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/models/Moneda.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/models/Moneda.java" />
+              <option name="originalContent" value="package models;&#10;&#10;public class Moneda {&#10;    private String nombre;&#10;    private String simbolo;&#10;    private double valor;&#10;    // Constructor por defecto&#10;    public Moneda(String nombre, String simbolo, double valor) {&#10;        this.nombre = nombre;&#10;        this.simbolo = simbolo;&#10;        this.valor = valor;&#10;    }&#10;    &#10;    // getters&#10;    public String getNombre() {&#10;        return nombre;&#10;    }&#10;&#10;    public void setNombre(String nombre) {&#10;        this.nombre = nombre;&#10;    }&#10;&#10;    public String getSimbolo() {&#10;        return simbolo;&#10;    }&#10;&#10;    public void setSimbolo(String simbolo) {&#10;        this.simbolo = simbolo;&#10;    }&#10;&#10;    public double getValor() {&#10;        return valor;&#10;    }&#10;&#10;    public void setValor(double valor) {&#10;        this.valor = valor;&#10;    }&#10;}&#10;" />
+              <option name="updatedContent" value="package models;&#10;&#10;public class Moneda {&#10;    private String nombre;&#10;    private String simbolo;&#10;    private double valor;&#10;    // Constructor por defecto&#10;    public Moneda(String nombre, String simbolo, double valor) {&#10;        this.nombre = nombre;&#10;        this.simbolo = simbolo;&#10;        this.valor = valor;&#10;    }&#10;    &#10;    // getters&#10;    public String getNombre() {&#10;        return nombre;&#10;    }&#10;&#10;    public String getSimbolo() {&#10;        return simbolo;&#10;    }&#10;&#10;    public double getValor() {&#10;        return valor;&#10;    }&#10;&#10;    // setters&#10;    public void setNombre(String nombre) {&#10;        this.nombre = nombre;&#10;    }&#10;&#10;    public void setSimbolo(String simbolo) {&#10;        this.simbolo = simbolo;&#10;    }&#10;&#10;    public void setValor(double valor) {&#10;        this.valor = valor;&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
